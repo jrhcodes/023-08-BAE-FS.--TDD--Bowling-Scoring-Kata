@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a8d5dd5-4cac-4de8-8d3b-79e0fcbab74f" name="Changes" comment="Initial Commit of Project Folder">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jrhcodes/BowlingScorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jrhcodes/BowlingScorerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jrhcodes/scoresheetExpected.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+    <list default="true" id="9a8d5dd5-4cac-4de8-8d3b-79e0fcbab74f" name="Changes" comment="Bugged file version - unsure of issue.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jrhcodes/scoresheetExpected.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jrhcodes/BowlingScorerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jrhcodes/BowlingScorerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,25 +53,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mrjrh/OneDrive/Documents/jrhcodes/_023-08-BAE-FS.--TDD--Roman-Numerals-Kata-Javascript&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/mrjrh/OneDrive/Documents/jrhcodes/backups/_023-08-BAE-FS.--TDD--Bowling-Scoring-Kata",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mrjrh\OneDrive\Documents\jrhcodes\_023-08-BAE-FS.--TDD--Bowling-Scoring-Kata\src\main\resources" />
@@ -85,13 +80,6 @@
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="_023-08-BAE-FS.--TDD--Bowling-Scoring-Kata" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="_023-08-BAE-FS.--TDD--Bowling-Scoring-Kata" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,6 +97,7 @@
       <workItem from="1693434043576" duration="61000" />
       <workItem from="1693434120813" duration="22000" />
       <workItem from="1693434527802" duration="250000" />
+      <workItem from="1693436104096" duration="232000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit of Project Folder">
       <option name="closed" value="true" />
@@ -118,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693423457858</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Bugged file version - unsure of issue.">
+      <option name="closed" value="true" />
+      <created>1693436141393</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693436141393</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit of Project Folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit of Project Folder" />
+    <MESSAGE value="Bugged file version - unsure of issue." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugged file version - unsure of issue." />
   </component>
 </project>

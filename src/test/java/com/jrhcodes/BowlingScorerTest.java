@@ -2,7 +2,6 @@ package com.jrhcodes;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
-import com.jrhcodes.BowlingScorer.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
