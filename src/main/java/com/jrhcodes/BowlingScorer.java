@@ -21,7 +21,7 @@ public class BowlingScorer {
                 final char nextBowl = getBowl(frames[frame + 1], 0);
                 if (isStrike(nextBowl) ) {
                     final char bowlAfterThat = getBowl(frames[frame + 2], 0);
-                    if (bowlAfterThat == 'X') {
+                    if (isStrike(bowlAfterThat)) {
                         returnValue += 30;
                     } else {
                         returnValue += 20 + bowlScore(bowlAfterThat);
@@ -36,7 +36,7 @@ public class BowlingScorer {
                 }
             } else if (isSpare(getBowl(thisFrame, 1))) { // spare
                 final char nextBowl = getBowl(frames[frame + 1], 0);
-                if (nextBowl == 'X') {
+                if (isStrike(nextBowl)) {
                     returnValue += 20;
                 } else {
                     returnValue += 10 + bowlScore(nextBowl);
