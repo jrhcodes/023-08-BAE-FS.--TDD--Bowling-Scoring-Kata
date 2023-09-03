@@ -5,6 +5,9 @@ public class BowlingScorer {
     private static int bowlScore(char digit) { return  (digit=='-') ? 0 : digit - '0';}
     private static char getBowl(String frame, int index) { return frame.charAt(index);}
 
+    private static boolean isStrike( String frame) {return frame.equals("X");};
+    private static boolean isStrike( char bowl ) {return bowl == 'X';};
+    private static boolean isSpare( char bowl ) {return bowl == '/';};
 
     public static int scoreBlowing(String scoresheet) {
 
@@ -14,9 +17,9 @@ public class BowlingScorer {
 
         for(int frame = 0; frame < 10; frame ++ ) {
             String thisFrame = frames[frame];
-            if (thisFrame.equals("X")) {
+            if (isStrike(thisFrame)) {
                 final char nextBowl = getBowl(frames[frame + 1], 0);
-                if (nextBowl == 'X') {
+                if (isStrike(nextBowl) ) {
                     final char bowlAfterThat = getBowl(frames[frame + 2], 0);
                     if (bowlAfterThat == 'X') {
                         returnValue += 30;
@@ -25,13 +28,13 @@ public class BowlingScorer {
                     }
                 } else {
                     final char bowlAfterThat = getBowl(frames[frame + 1], 0);
-                    if (bowlAfterThat == '/') {
+                    if (isSpare(bowlAfterThat)) {
                         returnValue += 20;
                     } else {
                         returnValue += 10 + bowlScore(nextBowl) + bowlScore(bowlAfterThat);
                     }
                 }
-            } else if (getBowl(thisFrame, 1) == '/') { // spare
+            } else if (isSpare(getBowl(thisFrame, 1))) { // spare
                 final char nextBowl = getBowl(frames[frame + 1], 0);
                 if (nextBowl == 'X') {
                     returnValue += 20;

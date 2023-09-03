@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a8d5dd5-4cac-4de8-8d3b-79e0fcbab74f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jrhcodes/scoresheetExpected.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+    <list default="true" id="9a8d5dd5-4cac-4de8-8d3b-79e0fcbab74f" name="Changes" comment="Basic tests for values &#10;X X X X X X X X X X X X, 300&#10;9- 9- 9- 9- 9- 9- 9- 9- 9- 9-, 90&#10;5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5, 150&#10;in testScoreBowlingVsExpectedScores pasing">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jrhcodes/BowlingScorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jrhcodes/BowlingScorer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +14,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,6 +43,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mrjrh\OneDrive\Documents\jrhcodes\java.2023-08-BAE-FS.--TDD--Bowling-Scoring-Kata\src\test\resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.BowlingScorerTest (1)">
     <configuration name="BowlingScorerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_023-08-BAE-FS.--TDD--Bowling-Scoring-Kata" />
@@ -108,9 +108,22 @@
       <workItem from="1693436830524" duration="714000" />
       <workItem from="1693477206638" duration="834000" />
     </task>
+    <task id="LOCAL-00001" summary="Basic tests for values &#10;X X X X X X X X X X X X, 300&#10;9- 9- 9- 9- 9- 9- 9- 9- 9- 9-, 90&#10;5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5, 150&#10;in testScoreBowlingVsExpectedScores pasing">
+      <option name="closed" value="true" />
+      <created>1693782501973</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693782501973</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basic tests for values &#10;X X X X X X X X X X X X, 300&#10;9- 9- 9- 9- 9- 9- 9- 9- 9- 9-, 90&#10;5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5, 150&#10;in testScoreBowlingVsExpectedScores pasing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic tests for values &#10;X X X X X X X X X X X X, 300&#10;9- 9- 9- 9- 9- 9- 9- 9- 9- 9-, 90&#10;5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5, 150&#10;in testScoreBowlingVsExpectedScores pasing" />
   </component>
 </project>
